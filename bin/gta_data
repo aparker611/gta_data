@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+require './lib/gta_data'
+
+GtaData.new.run ARGV.first
