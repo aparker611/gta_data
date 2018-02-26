@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Gta>
+  <Header>
+    <Title>GTA Players</Title>
+  </Header>
+  <Players>
+    <Player>
+      <ID>1</ID>
+      <FirstName>John</FirstName>
+      <LastName>Simpson</LastName>
+      <Money>1469872</Money>
+      <Level>35</Level>
+      <Stamina>45</Stamina>
+      <Shooting>66</Shooting>
+      <Strength>35</Strength>
+      <Stealth>60</Stealth>
+      <Flying>80</Flying>
+      <Driving>100</Driving>
+      <LungCapacity>60</LungCapacity>
+      <MentalState>Normal</MentalState>
+    </Player>
+    <Player>
+      <ID>2</ID>
+      <FirstName>Joe</FirstName>
+      <LastName>Black</LastName>
+      <Money>17876</Money>
+      <Level>10</Level>
+      <Stamina>35</Stamina>
+      <Shooting>20</Shooting>
+      <Strength>15</Strength>
+      <Stealth>40</Stealth>
+      <Flying>15</Flying>
+      <Driving>56</Driving>
+      <LungCapacity>35</LungCapacity>
+      <MentalState>Normal</MentalState>
+  </Player>
+  <Player>
+    <ID>3</ID>
+    <FirstName>Peter</FirstName>
+    <LastName>Gibbs</LastName>
+    <Money>3467892</Money>
+    <Level>45</Level>
+    <Stamina>66</Stamina>
+    <Shooting>85</Shooting>
+    <Strength>80</Strength>
+    <Stealth>67</Stealth>
+    <Flying>98</Flying>
+    <Driving>89</Driving>
+    <LungCapacity>70</LungCapacity>
+    <MentalState>Evil</MentalState>
+  </Player>
+</Players>
+</Gta>
