@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="GtaSchema">
+ <xs:element name="Gta" >
+  <xs:complexType>
+   <xs:sequence>
+    <xs:element name="Header">
+     <xs:complexType>
+      <xs:sequence>
+       <xs:element name="Title" type="xs:string" maxOccurs="1" />
+      </xs:sequence>
+     </xs:complexType>
+    </xs:element>
+    <xs:element name="Players">
+     <xs:complexType>
+      <xs:sequence>
+       <xs:element name="Player" maxOccurs="unbounded">
+        <xs:complexType>
+         <xs:sequence>
+          <xs:element name="ID" type="xs:string" />
+          <xs:element name="FirstName" type="xs:string" />
+          <xs:element name="LastName" type="xs:string" />
+          <xs:element name="Money" type="xs:integer" />
+          <xs:element name="Level" type="xs:integer" />
+          <xs:element name="Stamina" type="xs:integer" />
+          <xs:element name="Shooting" type="xs:integer" />
+          <xs:element name="Strength" type="xs:integer" />
+          <xs:element name="Stealth" type="xs:integer" />
+          <xs:element name="Flying" type="xs:integer" />
+          <xs:element name="Driving" type="xs:integer" />
+          <xs:element name="LungCapacity" type="xs:integer" />
+          <xs:element name="MentalState" type="xs:string" />
+         </xs:sequence>
+        </xs:complexType>
+       </xs:element>
+      </xs:sequence>
+     </xs:complexType>
+    </xs:element>
+   </xs:sequence>
+  </xs:complexType>
+ </xs:element>
+</xs:schema>
